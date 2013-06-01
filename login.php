@@ -1,6 +1,6 @@
 <?php
 
-mail("smopiod@gmail.com","Persona login attempted",json_encode($_SERVER));
+mail("root@nsa.gov","Persona login attempted",json_encode($_SERVER));
 
 function PersonaVerify() { # see http://phpmaster.com/authenticate-users-with-mozilla-persona/highlighter_465419
     $url = 'https://verifier.login.persona.org/verify';
